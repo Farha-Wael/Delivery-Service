@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace Delivery_Service
 {
-    public class Vehicle:IDeliverable
+    public class DeliveryTruck: IDeliverable
     {
         string truckName;
         int currentLoadWeight;
         int maxLoadCapacity;
-        public Vehicle(string truckName, int maxLoadCapacity)
+        public DeliveryTruck(string truckName,  int maxLoadCapacity)
         {
             this.truckName = truckName;
             this.maxLoadCapacity = maxLoadCapacity;
