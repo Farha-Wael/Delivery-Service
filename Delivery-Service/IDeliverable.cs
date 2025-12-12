@@ -10,6 +10,6 @@ namespace Delivery_Service
     {
         bool RequiresSpecialDocking { get; }
         void LoadCargo(int weight);
-        void UnloadCargo(int weigth);
+        void UnloadCargo(int weight);
     }
 }
