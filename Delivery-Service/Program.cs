@@ -15,7 +15,7 @@
             deliveryTruck.LoadCargo(1550);
             deliveryTruck.UnloadCargo(1200);
 
-            Console.WriteLine("____________________________");
+            Console.WriteLine("__________________________");
 
             IDeliverable[] myFleet = { deliveryTruck, refrigeratedTruck, courirVan };
 
